@@ -4,7 +4,7 @@
   <style>
     header {
       text-align: center;
-      background: url('http://dash.ga.co/assets/jeff-bg.png');
+      background: url('https://images.pexels.com/photos/1547813/pexels-photo-1547813.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
       background-size: cover;
       color: white;
     }
@@ -16,71 +16,65 @@
     }
     img {
       margin: 40px 0px 0px 0px;
-      border: 7px solid white;
-      border-radius: 20px;
+      border: 7px solid brown;
+      border-radius: 50%;
+      height:200px;
+      width:200px;
+      object-fit:cover
     }
     ul {
       padding: 10px;
-      background: rgba(0,0,0,0.4);
+      background: rgba(0,0,0,0.5);
     }
     li {
       display: inline;
       padding: 0px 10px 0px 10px;
     }
-    p{
-      font-style:italic;
-      color:brown;
+    article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
     }
-    article{
-      max-width:500px;
-      padding:20px;
-      margin:0 auto;
-      text-align:justify;
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
     }
-      
-    @media (max-width: 500px){
-        body{
-          background: red;
-    }
-    h1 {
-      font-size: 36px;
-    }
-    li {
-      display: block;
-      padding: 5px;
-    }
-    }
-      
-      
   </style>
 </head>
 <body>
   <header>
-    <img src="/assets/jeff.png">
-    <h1>Jeff's Blog</h1>
+    <img src="https://images.pexels.com/photos/19832723/pexels-photo-19832723/free-photo-of-a-man-in-a-grey-sweater-looking-up-at-the-sky.jpeg?auto=compress&cs=tinysrgb&w=600">
+    <h1>Prem's Blog</h1>
     <ul>
       <li><a href="#">About Me</a></li>
-      <li><a href="#">Best Poems</a></li>
-      <li><a href="#">Worst Poems</a></li>
+      <li><a href="#">Projects</a></li>
+      <li><a href="#">Github</a></li>
     </ul>
   </header>
   <article>
-  <h2>VHS umami pop-up trust fund</h2>
-  <p>Marfa church-key kitsch bicycle rights, 8-bit mixtape cardigan gentrify Echo Park. Street art swag brunch, next level roof party Schlitz hella organic keffiyeh selfies. You probably haven't heard of them polaroid hashtag +1, meggings biodiesel Portland High Life cray tumblr retro.</p>
-<button>like</button></article>
-<article>
-  <h2>Sartorial synth Echo Park, roof party</h2>
-  <p>chambray you probably haven't heard of them pour-over viral selvage umami skateboard VHS post-ironic selfies. Wes Anderson gentrify fanny pack twee, bicycle rights bitters blog keffiyeh plaid flannel. Tonx irony cliche sustainable mlkshk bitters. Four loko leggings chambray Vice.</p>
-  <button>like</button></article>
+    <h2>VHS umami pop-up trust fund</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <button>Like</button>
+  </article>
   <article>
-  <h2>Forage food truck keytar master cleanse</h2>
-  <p>ethical thundercats sustainable locavore quinoa Neutra. Aesthetic tacky sweater single-origin coffee, bicycle rights organic lo-fi street art american apparel ennui four loko ethnic Brooklyn small batch. Forage YOLO polaroid</p>
-  <button>like</button></article>
-<script>alert("Javascript works!")
-$("button").on("click", function(){
-  alert("clicked!")
-})
-</script>
-
-
+    <h2>Sartorial synth Echo Park, roof party</h2>
+    <p>chambray you probably haven't heard of them pour-over viral selvage umami skateboard VHS post-ironic selfies. Wes Anderson gentrify fanny pack twee, bicycle rights bitters blog keffiyeh plaid flannel. Tonx irony cliche sustainable mlkshk bitters. Four loko leggings chambray Vice.</p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>Forage food truck keytar master cleanse</h2>
+    <p>ethical thundercats sustainable locavore quinoa Neutra. Aesthetic tacky sweater single-origin coffee, bicycle rights organic lo-fi street art american apparel ennui four loko ethnic Brooklyn small batch. Forage YOLO polaroid</p>
+    <button>Like</button>
+  </article>
+  <script>
+    $("button").on("click", function() {
+      alert("Clicked!");
+    });
+  </script>
 </body>
