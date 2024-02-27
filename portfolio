@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<head>
+  <title>Prem Raj Mishra</title>
+  <style>
+    body {
+      text-align: center;
+      background: url("/assets/anna-bg.png");
+      background-size:cover;
+      background-position:center;
+      color: white;
+      font-family: helvetica;
+    }
+    p {
+      font-size: 22px;
+    }
+    input {
+    border: 0;
+    padding: 10px;
+    font-size: 18px;
+    }
+    input[placeholder="Your email"] {
+     background:yellow;
+      color:brown;
+    }
+    input[type='submit'] {
+      background:red;
+      color:white;
+      }
+  </style>
+</head>
+<body>
+  <h1>Prem Raj Mishra</h1>
+  <img src='http://mysite.com' alt='photo'/>
+  <p>Hi! I'm Prem, a Software Engineer. Say hello!</p>
+  <input type="email" placeholder="Your email">
+  <input type="submit">
+</body>
